@@ -4,7 +4,7 @@ import LogoImage from "./CSlogo.png";
 
 const Logo = () => {
     return(
-    <div>
+    <div className="logo-image-div">
         <img className="logo-image" src={LogoImage} alt="Caleigh Steill"/>
     </div>
     )
