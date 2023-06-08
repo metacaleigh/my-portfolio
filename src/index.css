@@ -14,6 +14,8 @@ code {
 
 body {
   background-image: url("./portfolioBG.png");
+  background-repeat: repeat-y;
+  background-size: cover;
   cursor: url('./wandcursor.png'), auto;
   width: 100vw;
   height: 100vh;
