@@ -1,7 +1,9 @@
 import React from 'react';
 import ContentItem from './ContentItem';
+import laptop from './laptop.png';
+import butterfly from './butterfly.png';
 
-const contentArr = [{id: 1, name: "Development", image: './laptop.png'}, {id: 2, name: "Creative", image: "./butterfly.png"}]
+const contentArr = [{id: 1, name: "Development", image: `${laptop}`}, {id: 2, name: "Creative", image: `${butterfly}`}]
 
 function ContentList() {
 

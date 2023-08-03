@@ -3,7 +3,7 @@ import React from 'react';
 
 function ContentItem({ name, image }) {
 
-    console.log(image)
+    // console.log(image)
 
     return(
         <>
