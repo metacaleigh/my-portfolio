@@ -2,8 +2,9 @@ import React from 'react';
 import ContentItem from './ContentItem';
 import laptop from './laptop.png';
 import butterfly from './butterfly.png';
+import smiley from './smiley.png';
 
-const contentArr = [{id: 1, name: "Development", image: `${laptop}`}, {id: 2, name: "Creative", image: `${butterfly}`}]
+const contentArr = [{id: 1, name: "Development", image: `${laptop}`}, {id: 2, name: "Creative", image: `${butterfly}`}, {id: 3, name: "About Me", image: `${smiley}`}]
 
 function ContentList() {
 
@@ -14,7 +15,7 @@ function ContentList() {
     })
 
     return(
-        <div>
+        <div className="content-list-row">
             {contentItems}
         </div>
     )
