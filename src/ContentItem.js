@@ -9,7 +9,7 @@ function ContentItem({ name, image }) {
         <>
         <div>
             <img src={image} alt="Thumbnail"/>
-            <h2>{name}</h2>
+            <h2 className="content-titles">{name}</h2>
         </div>
         </>
     )
